@@ -2,7 +2,7 @@
 
 A high-performance, responsive single-page developer portfolio showcasing full-stack Java and React projects with fluid animations.
 
-**Live site:** https://YOUR-SITE-URL/
+**Live site:** https://hamsaveni-s-portfolio.vercel.app/
 
 ---
 
