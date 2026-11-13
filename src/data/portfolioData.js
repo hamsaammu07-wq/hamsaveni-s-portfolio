@@ -252,9 +252,9 @@ export const contactContent = {
     },
   ],
   form: {
-    nameLabel: "Your Name",
+    nameLabel: "Full Name",
     namePlaceholder: "e.g. John Doe",
-    emailLabel: "Your Email",
+    emailLabel: "Email Address",
     emailPlaceholder: "e.g. john@example.com",
     subjectLabel: "Subject",
     subjectPlaceholder: "e.g. Java Full Stack Opportunity",
