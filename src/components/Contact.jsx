@@ -42,7 +42,9 @@ function Contact() {
 
     if (!isConfigured) {
       window.open(
-        `mailto:${personalInfo.emails.primary}?subject=Portfolio Contact from ${firstName} ${lastName}&body=${encodeURIComponent(
+        `mailto:${personalInfo.emails.primary}?subject=${encodeURIComponent(
+          `Portfolio message from ${firstName} ${lastName}`.trim()
+        )}&body=${encodeURIComponent(
           `From: ${firstName} ${lastName}\nEmail: ${email}\n\n${message}`
         )}`,
         '_blank'
